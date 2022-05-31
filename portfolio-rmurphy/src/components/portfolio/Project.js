@@ -3,8 +3,9 @@ import classes from "./Project.module.css";
 import movieHunter from "../../assests/images/movieHunter.png";
 import weatherDashboard from "../../assests/images/weatherDashboard.png";
 import passwordGenerator from "../../assests/images/passwordGenerator.png";
-import proj2ss from "../../assests/images/proj2ss.png";
+import proj2ss from "../../assests/images/proj2ss2.png";
 import moshify from "../../assests/images/moshify.png";
+import placeHolder from "../../assests/images/project3PlaceHolder.jpg";
 
 const PROJECT_DATA = [
   {
@@ -56,49 +57,58 @@ const PROJECT_DATA = [
   {
     id: 6,
     title: "Project 3",
-    image: movieHunter,
+    image: placeHolder,
     github: "coming soon",
     deployed: "coming soon",
-    description: `{An app to find streaming sources & reviews, intuitive and
-        easy to navigate}`,
-    tech: "HTML, CSS, JavaScript, API's",
+    description: `To be added on completion`,
+    tech: "A future full stack application",
   },
 ];
 
 const Projects = () => {
-  PROJECT_DATA.map(
-    ({ id, title, image, github, deployed, description, tech }) => {
-      return (
-        <article key={id} className={classes.project__card}>
-          <Card>
-            <div className={classes.project__image}>
-              <img src={image} alt={title} />
-            </div>
-            <div className={classes.project__details}>
-              <h3 className={classes.project__title}>{title}</h3>
-              <p className={classes.project__description}>{description}</p>
-              <p className={classes.project__tech}>{tech}</p>
-              <a
-                href={github}
-                className={classes.project__link}
-                target="_blank"
-                rel="noreferrer"
-              >
-                Github
-              </a>
-              <a
-                href={deployed}
-                className={classes.project__link}
-                target="_blank"
-                rel="noreferrer"
-              >
-                Deployed Live here
-              </a>
-            </div>
-          </Card>
-        </article>
-      );
-    }
+  return (
+    <section id="projects">
+      <h5>My Recent Work</h5>
+      <h2>Projects</h2>
+      <div className={classes.card}>
+        {PROJECT_DATA.map(
+          ({ id, image, title, github, deployed, description, tech }) => {
+            return (
+              <article key={id} className={classes.card__body}>
+                <div className="portfolio__item-image">
+                  <img
+                    className={classes.project__image}
+                    src={image}
+                    alt={title}
+                  />
+                </div>
+                <h3 className={classes.project__title}>{title}</h3>
+                <p className={classes.project__descriptions}>{description}</p>
+                <h4 className={classes.project__tech}>{tech}</h4>
+                <div className="portfolio__item-cta">
+                  <a
+                    href={github}
+                    className={classes.project__link}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Github
+                  </a>
+                  <a
+                    href={deployed}
+                    className={classes.project__link}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Deployed here
+                  </a>
+                </div>
+              </article>
+            );
+          }
+        )}
+      </div>
+    </section>
   );
 };
 

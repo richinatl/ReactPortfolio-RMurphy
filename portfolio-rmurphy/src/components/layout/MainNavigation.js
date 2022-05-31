@@ -15,9 +15,6 @@ function MainNavigation() {
           <li className={classes.nav__item}>
             <Link to="/contact">Contact Me</Link>
           </li>
-          <li className={classes.nav__item}>
-            <Link to="/resume">Resume</Link>
-          </li>
         </ul>
       </nav>
     </header>

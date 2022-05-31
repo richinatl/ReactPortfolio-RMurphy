@@ -13,19 +13,19 @@ function ContactForm(props) {
     event.preventDefault();
     alert("Back end under construction, please contact me directly");
 
-    const enteredName = nameInputRef.current.value;
-    const enteredCompany = companyInputRef.current.value;
-    const enteredEmail = emailInputRef.current.value;
-    const enteredDescription = descriptionInputRef.current.value;
+    // const enteredName = nameInputRef.current.value;
+    // const enteredCompany = companyInputRef.current.value;
+    // const enteredEmail = emailInputRef.current.value;
+    // const enteredDescription = descriptionInputRef.current.value;
 
-    const contactData = {
-      title: enteredName,
-      company: enteredCompany,
-      email: enteredEmail,
-      description: enteredDescription,
-    };
+    // const contactData = {
+    //   title: enteredName,
+    //   company: enteredCompany,
+    //   email: enteredEmail,
+    //   description: enteredDescription,
+    // };
 
-    props.onAddContact(contactData);
+    // props.onAddContact(contactData);
   }
   return (
     <Card>
