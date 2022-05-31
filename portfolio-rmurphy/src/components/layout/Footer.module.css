@@ -1,0 +1,44 @@
+.contact__details {
+    background-color: #3aacee;
+    margin-top: 5rem;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+}
+
+@media screen and (min-width: 768px) {
+    .contact__details {
+      display: flex;
+      justify-content: space-evenly;
+    }
+  }
+
+.contact__list {
+    display: block;
+    margin-left: 4rem;
+    padding-bottom: 2rem;
+}
+
+.footer__heading {
+    color: #fff;
+    font-size: 4rem;
+    margin-left: 4rem;
+}
+
+.list__item {
+font-weight: 700;
+}
+
+.footer__item {
+    color: #fff;
+    font-size: 2rem;
+    transition: color 0.2s;
+}
+
+.footer__item:hover {
+    opacity: 0.9;
+  }
+
+  ul {
+      list-style: none;
+  }
+

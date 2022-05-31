@@ -1,0 +1,17 @@
+.about__block {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    text-align: left;
+}
+
+.about__heading {
+    color: #2403fc;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    text-align: left;
+}
+
+.about__p {
+    margin-top: 1rem;
+    margin-bottom: 10rem;
+}
