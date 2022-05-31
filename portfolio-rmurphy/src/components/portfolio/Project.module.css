@@ -1,0 +1,57 @@
+.project__card {
+
+    display: grid;
+}
+
+@media screen and (min-width: 768px) {
+  .project__card {
+    grid-template-columns: repeat(1, 2fr 1fr);
+  }
+}
+@media screen and (min-width: 1024px) {
+  .project__card {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 2rem;
+    row-gap: 4rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+}
+
+/*.project__details {
+
+}*/
+
+.project__descriptions {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.project__image {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.project__link {
+    padding-top: 2rem;
+}
+
+.project__tech {
+    padding-bottom: 2rem;
+}
+
+.project__title {
+    color: #3c1fe2;
+    font-size: 4rem;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+ul {
+    list-style: none;
+}
+
+
