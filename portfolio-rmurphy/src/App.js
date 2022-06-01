@@ -9,7 +9,7 @@ function App() {
     <div>
       <Layout>
         <Switch>
-          <Route path="/" exact component={AboutMePage}>
+          <Route path="ReactPortfolio-RMurphy/" exact component={AboutMePage}>
             <AboutMePage />
           </Route>
           <Route path="/contact" component={ContactPage}>
