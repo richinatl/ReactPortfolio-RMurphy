@@ -12,10 +12,10 @@ function App() {
           <Route path="ReactPortfolio-RMurphy/" exact component={AboutMePage}>
             <AboutMePage />
           </Route>
-          <Route path="/contact" component={ContactPage}>
+          <Route path="ReactPortfolio-RMurphy/contact" component={ContactPage}>
             <ContactPage />
           </Route>
-          <Route path="/projects" component={AllProjectsPage}>
+          <Route path="ReactPortfolio-RMurphy/projects" component={AllProjectsPage}>
             <AllProjectsPage />
           </Route>
         </Switch>
