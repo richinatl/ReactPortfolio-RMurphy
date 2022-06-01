@@ -17,10 +17,13 @@
 
 
 ![portfolioReadMe1](https://user-images.githubusercontent.com/95508564/171330567-8cd011ec-bd8e-4e5f-819a-dd701bf2f72f.png)
+### The main page
 
 ![portfolioReadMe2](https://user-images.githubusercontent.com/95508564/171330589-0ab9594c-2283-447f-b271-360fb9f9528e.png)
+### A section of projects I've worked on
 
 ![portfolioReadMe3](https://user-images.githubusercontent.com/95508564/171330624-464fb6bd-6a6a-46bc-9203-065b3a7d0b0c.png)
+### A contact form, although the back end still needs to be built for it at this time
 
 
 
