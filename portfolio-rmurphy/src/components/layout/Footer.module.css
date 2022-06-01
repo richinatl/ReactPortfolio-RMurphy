@@ -31,14 +31,19 @@ font-weight: 700;
 .footer__item {
     color: #fff;
     font-size: 2rem;
-    transition: color 0.2s;
+    transition: color 0.3s;
 }
 
+.footer__item > a {
+    color: #fff;
+    transition: color 0.3s;
+  }
+
 .footer__item:hover {
-    opacity: 0.9;
+    opacity: 0.7;
+    transition: color 0.3s;
   }
 
   ul {
       list-style: none;
   }
-

@@ -38,7 +38,7 @@ const PROJECT_DATA = [
   },
   {
     id: 4,
-    title: "Yeet=a-Job",
+    title: "Yeet-a-Job",
     image: proj2ss,
     github: "https://github.com/richinatl/Freelance-Job-Board",
     deployed: "https://job-board-project.herokuapp.com/",
@@ -68,42 +68,43 @@ const PROJECT_DATA = [
 const Projects = () => {
   return (
     <section id="projects">
-      <h5>My Recent Work</h5>
-      <h2>Projects</h2>
-      <div className={classes.card}>
+      <h2 className={classes.card__heading}>Projects</h2>
+      <div className={classes.grid}>
         {PROJECT_DATA.map(
           ({ id, image, title, github, deployed, description, tech }) => {
             return (
-              <article key={id} className={classes.card__body}>
-                <div className="portfolio__item-image">
-                  <img
-                    className={classes.project__image}
-                    src={image}
-                    alt={title}
-                  />
-                </div>
-                <h3 className={classes.project__title}>{title}</h3>
-                <p className={classes.project__descriptions}>{description}</p>
-                <h4 className={classes.project__tech}>{tech}</h4>
-                <div className="portfolio__item-cta">
-                  <a
-                    href={github}
-                    className={classes.project__link}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Github
-                  </a>
-                  <a
-                    href={deployed}
-                    className={classes.project__link}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Deployed here
-                  </a>
-                </div>
-              </article>
+              <div className={classes.projects__div}>
+                <article key={id}>
+                  <div>
+                    <img
+                      src={image}
+                      className={classes.project__image}
+                      alt={title}
+                    />
+                  </div>
+                  <h3 className={classes.project__title}>{title}</h3>
+                  <p className={classes.project__descriptions}>{description}</p>
+                  <h4 className={classes.project__tech}>{tech}</h4>
+                  <div className="portfolio__item-cta">
+                    <a
+                      href={github}
+                      className={classes.project__link}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Code Here
+                    </a>
+                    <a
+                      href={deployed}
+                      className={classes.project__link}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Deployed here
+                    </a>
+                  </div>
+                </article>
+              </div>
             );
           }
         )}

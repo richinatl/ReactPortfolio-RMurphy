@@ -3,7 +3,7 @@ import classes from "./AboutMe.module.css";
 function AboutMe() {
   return (
     <div className={classes.about__block}>
-      <h2 className={classes.about__heading}>About me</h2>
+      <h2 className={classes.about__heading}>Hi there! A little about me</h2>
       <p className={classes.about__p}>
         It's been a long journey from my first days in tech as a
         telecommunications installer and an optical test engineer. After taking

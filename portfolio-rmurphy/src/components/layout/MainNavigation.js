@@ -3,9 +3,9 @@ import classes from "./MainNavigation.module.css";
 
 function MainNavigation() {
   return (
-    <header className={classes.nav__header}>
-      <nav className={classes.nav__list}>
-        <ul>
+    <header>
+      <nav className={classes.nav__header}>
+        <ul className={classes.nav__list}>
           <li className={classes.nav__item}>
             <Link to="/">About Me</Link>
           </li>

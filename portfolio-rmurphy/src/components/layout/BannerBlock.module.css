@@ -1,3 +1,18 @@
+.banner__block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .banner__block {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+}
+
 .block__skewed {
     background-color: #2403fc;
     color: #fff;
@@ -16,6 +31,8 @@
 
   .banner__pic {
       border-radius: 50%;
+      object-fit: contain;
+      max-height: 60vh;
   }
 
 p {

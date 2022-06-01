@@ -10,9 +10,11 @@ function BannerBlock() {
       <p className={classes.banner__tagline}>
         A hard working, dependable, web developer ready to serve your needs
       </p>
-      <div className={classes.banner__pic}>
-        <img src={bio_pic2} alt="Richard Murphy" />
-      </div>
+      <img
+        className={classes.banner__pic}
+        src={bio_pic2}
+        alt="Richard Murphy"
+      />
     </section>
   );
 }

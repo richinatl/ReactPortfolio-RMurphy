@@ -2,13 +2,39 @@
     margin-left: 5rem;
     margin-right: 5rem;
     text-align: left;
+    padding-bottom: 7rem;
 }
+
+@media screen and (min-width:768px) {
+    .about__block {
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .about__block {
+        font-size: 2rem;
+        margin-left: 15rem;
+        margin-right: 15rem;
+    }
+}
+
+@media screen and (min-width:1350px) {
+    .about__block {
+        font-size: 2rem;
+        margin-left: 20rem;
+        margin-right: 20rem;
+    }
+}
+
 
 .about__heading {
     color: #2403fc;
-    padding-top: 4rem;
-    padding-bottom: 2rem;
-    text-align: left;
+    font-weight: 700;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    text-align: center;
 }
 
 .about__p {

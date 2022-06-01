@@ -14,11 +14,6 @@ function Footer() {
             <a href="richinatl@gmail.com">Email Me</a>
           </li>
           <li className={`${classes.list__item} ${classes.footer__item}`}>
-            <a href="https://richinatl.github.io/Portfolio-Richard-Murphy/">
-              Portfolio
-            </a>
-          </li>
-          <li className={`${classes.list__item} ${classes.footer__item}`}>
             <a href="https://linkedin.com/in/richard-murphy-678wd">LinkedIn</a>
           </li>
           <li className={`${classes.list__item} ${classes.footer__item}`}>

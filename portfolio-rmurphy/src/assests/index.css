@@ -23,11 +23,6 @@
     font-size: 62.5%;
   }
   
-  img {
-    width: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-  }
   
   body {
     font-family: Inter, Arial, Helvetica, sans-serif;
@@ -81,8 +76,7 @@
   }
   a {
     text-decoration: none;
-    color: var(--color-headings);
-    transition: color 0.03s ease-out;
+    transition: color 0.3s ease-out;
   }
 
   a:hover {
