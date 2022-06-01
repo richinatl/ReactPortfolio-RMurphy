@@ -14,6 +14,17 @@
 - [Questions](#questions)
 - [Credits](#credits)
 
+
+
+![portfolioReadMe1](https://user-images.githubusercontent.com/95508564/171330567-8cd011ec-bd8e-4e5f-819a-dd701bf2f72f.png)
+
+![portfolioReadMe2](https://user-images.githubusercontent.com/95508564/171330589-0ab9594c-2283-447f-b271-360fb9f9528e.png)
+
+![portfolioReadMe3](https://user-images.githubusercontent.com/95508564/171330624-464fb6bd-6a6a-46bc-9203-065b3a7d0b0c.png)
+
+
+
+
 ## Description
 
 A portfolio made with React, complete with conditional rendering and local routes through react to make a complete single page application
