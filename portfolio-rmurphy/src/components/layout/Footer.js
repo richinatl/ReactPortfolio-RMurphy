@@ -11,7 +11,7 @@ function Footer() {
             Cell Phone (678) 549-6092
           </li>
           <li className={`${classes.list__item} ${classes.footer__item}`}>
-            <a href="richinatl@gmail.com">Email Me</a>
+            <a href="mailto:richinatl@gmail.com">Email Me</a>
           </li>
           <li className={`${classes.list__item} ${classes.footer__item}`}>
             <a href="https://linkedin.com/in/richard-murphy-678wd">LinkedIn</a>
