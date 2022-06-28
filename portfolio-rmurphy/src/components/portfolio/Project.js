@@ -5,7 +5,7 @@ import weatherDashboard from "../../assests/images/weatherDashboard.png";
 import passwordGenerator from "../../assests/images/passwordGenerator.png";
 import proj2ss from "../../assests/images/proj2ss2.png";
 import moshify from "../../assests/images/moshify.png";
-import placeHolder from "../../assests/images/project3PlaceHolder.jpg";
+import quizmaster from "../../assests/images/quizmaster.png";
 
 const PROJECT_DATA = [
   {
@@ -56,12 +56,12 @@ const PROJECT_DATA = [
   },
   {
     id: 6,
-    title: "Project 3",
-    image: placeHolder,
-    github: "coming soon",
-    deployed: "coming soon",
-    description: `To be added on completion`,
-    tech: "A future full stack application",
+    title: "QuizMaster",
+    image: quizmaster,
+    github: "https://github.com/richinatl/QuizMaster",
+    deployed: "https://polar-island-54317.herokuapp.com/",
+    description: `A full stack application for making and selling quizes`,
+    tech: "React, Node.js. Express, Mongo, GraphQL, Stripe",
   },
 ];
 
