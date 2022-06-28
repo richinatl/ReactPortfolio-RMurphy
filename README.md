@@ -57,7 +57,7 @@ NA
 
 ## Technologies
 
-Made with React and custom CSS
+Made with React, javaScript, and custom CSS
 
 ## Questions
 
